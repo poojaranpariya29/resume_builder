@@ -22,37 +22,37 @@ List<Map> buildOption = [
   {
     "icon": "thinking.png",
     "name": "Experiences",
-    "page": "personalDetail",
+    "page": "experience",
   },
   {
     "icon": "skill.png",
     "name": "Technical Skills",
-    "page": "personalDetail",
+    "page": "technicalskills",
   },
   {
     "icon": "open-book.png",
     "name": "Interest/Hobbies",
-    "page": "personalDetail",
+    "page": "interest/hobbies",
   },
   {
     "icon": "project.png",
     "name": "Projects",
-    "page": "personalDetail",
+    "page": "projects",
   },
   {
     "icon": "experience.png",
     "name": "Achievements",
-    "page": "personalDetail",
+    "page": "acheivements",
   },
   {
     "icon": "handshake.png",
     "name": "References",
-    "page": "personalDetail",
+    "page": "references",
   },
   {
     "icon": "declaration.png",
     "name": "Declaration",
-    "page": "personalDetail",
+    "page": "declaration",
   },
 ];
 
@@ -63,6 +63,15 @@ class MyResume {
   String? address1;
   String? address2;
   String? address3;
+  String? coureses;
+  String? university;
+  String? marks;
+  String? technicalskill;
+  String? experience;
+  String? year;
+  String? imgfile;
+  String? company;
+  String? roles;
 }
 
 MyResume resume = MyResume();
